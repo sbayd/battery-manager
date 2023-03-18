@@ -2,6 +2,7 @@
   "name": "battery-manager",
   "version": "1.0.0",
   "description": "",
+  "files": ["dist"],
   "main": "dist/index.js",
   "targets": {
     "lib": {
