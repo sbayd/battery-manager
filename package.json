@@ -1,6 +1,6 @@
 {
   "name": "battery-manager-dont-use",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "files": ["dist"],
   "main": "dist/index.js",
