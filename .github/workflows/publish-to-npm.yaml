@@ -7,18 +7,19 @@ on:
       - master
 
 jobs:
-  build-and-publish:
+  publish-npm:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com/
-      - uses: pnpm/action-setup@v2
+          registry-url: https://registry.npmjs.org/
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
         with:
           version: 7
-      - uses: actions/checkout@v3
+      - run: pnpm i
       - run: pnpm build
       - run: pnpm publish
         env:
