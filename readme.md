@@ -1,15 +1,15 @@
 ## How to install?
 
-Just add ```battery-manager-dont-use``` to your project. via npm or yarn or pnpm.
+Just add ```battery-manager``` to your project. via npm or yarn or pnpm.
 
 ```
-pnpm add battery-manager-dont-use
+pnpm add battery-manager
 
 ```
 Then it is ready to use example app:
 
 ```js
-import BatteryManager from 'battery-manager-dont-use';
+import BatteryManager from 'battery-manager';
 
 
 const manager = new BatteryManager({
