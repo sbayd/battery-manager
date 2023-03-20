@@ -3,7 +3,7 @@
 Just add ```battery-manager``` to your project via npm or yarn or pnpm. It helps you to check the client battery level using Web Battery API.
 
 ```
-pnpm add battery-manager-dont-use
+pnpm add battery-manager
 
 ```
 Then it is ready to use example app:
